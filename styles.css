@@ -1,0 +1,99 @@
+img {
+    border: 0;
+}
+
+a:hover {
+    color: #2571db;
+}
+
+a {
+    color: #2571db;
+}
+
+body {
+    padding: 20px;
+    font-family: Roboto Mono, monospace;
+    font-size: 16px;
+    margin: 0;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.header {
+    text-align: center;
+}
+
+.menu-horizontal {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: .5em 0;
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 6px;
+}
+
+.menu-link:hover {
+    background-color: #eee;
+}
+
+.menu-link {
+    padding: .5em 1em;
+    color: #777;
+    list-style: none;
+    text-decoration: none;
+}
+
+.content {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills {
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    display: grid;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+#software {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+#software td, #software th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#software tr:nth-child(even){background-color: #f2f2f2;}
+
+#software tr:hover {background-color: #ddd;}
+
+#software th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2096ff;
+  color: white;
+}
